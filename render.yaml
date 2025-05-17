@@ -1,7 +1,6 @@
 services:
   - type: web
     name: order-management-api
-    env: java
     buildCommand: "./mvnw clean package"
     startCommand: "java -jar target/*.jar"
     plan: free
